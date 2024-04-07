@@ -253,17 +253,21 @@ iframe {
 
 .carousel-cell {
   width: auto;
-  height: auto;
-  max-height: 600px;
+  height: 600px;
   margin: 1em 1em;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-cell img {
   display: block;
+  /*width: 100%;*/
+  height: auto;
   width: auto;
-  height: 100%;
+  max-height: 100%;
   max-width: 100%;
-  max-height: 600px;
   opacity: 0.2;
   border-radius: 1.5em 0;
   margin: auto;
@@ -295,7 +299,9 @@ iframe {
   align-items: center;
 }
 
-
+p {
+  padding: 0 0.5em;
+}
 
 
 
